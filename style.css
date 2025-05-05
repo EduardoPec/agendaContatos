@@ -1,0 +1,129 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f2f5;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+.container {
+    max-width: 700px;
+    margin: 30px auto;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.08);
+    padding: 40px;
+}
+
+h1 {
+    text-align: center;
+    color: #2c3e50;
+    margin-bottom: 30px;
+    font-weight: 600;
+    font-size: 2.2rem;
+}
+
+.button-group {
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+input[type="text"],
+input[type="number"] {
+    padding: 12px 15px;
+    margin-bottom: 20px;
+    width: 100%;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 1rem;
+    transition: border-color 0.3s ease;
+    box-sizing: border-box;
+}
+
+.oculto {
+    display: none;
+}
+
+button {
+    padding: 12px 24px;
+    cursor: pointer;
+    border: none;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+    font-weight: bold;
+    font-size: 0.95rem;
+}
+
+button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#Adicionar {
+    background-color: #007bff;
+    color: #fff;
+}
+
+#Adicionar:hover {
+    background-color: #0069d9;
+}
+
+#buttonAdicionar {
+    color: white;
+    background-color: #0069d9;
+}
+
+.btn-excluir {
+    background-color: #dc3545;
+    color: #fff;
+}
+
+.btn-excluir:hover {
+    background-color: #c82333;
+}
+
+.btn-consultar {
+    background-color: #28a745;
+    color: #fff;
+}
+
+.btn-consultar:hover {
+    background-color: #218838;
+}
+
+.btn-alterar {
+    background-color: #ffc107;
+    color: #212529;
+}
+
+.btn-alterar:hover {
+    background-color: #e0a800;
+}
+
+.action-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
+.form-container {
+    background-color: #f8f9fa;
+    padding: 25px;
+    border-radius: 8px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+#info {
+    margin-top: 30px;
+    text-align: left;
+    border-top: 1px solid #eee;
+    padding-top: 20px;
+}
+
+

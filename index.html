@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agenda de Contatos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>📱 Agenda de Contatos</h1>
+        
+        <div class="button-group">
+            <button id="Adicionar" >➕ Adicionar</button>
+            <button id="Consultar" class="btn-consultar">🔍 Consultar</button>
+            <button id="Alterar" class="btn-alterar">✏️ Alterar</button>
+            <button id="Excluir" class="btn-excluir">🗑️ Excluir</button>
+        </div>
+
+        <div id="contato-container" class="oculto">
+            <div class="form-container">
+                <div class="form-group">
+                    <label for="nomeInput">Nome:</label>
+                    <input type="text" id="nomeInput" placeholder="Digite o nome completo">
+                </div>
+                <div class="form-group">
+                    <label for="numeroInput">Telefone:</label>
+                    <input type="number" id="numeroInput" placeholder="DDD + Número (apenas dígitos)">
+                </div>
+                <div class="action-buttons">
+                    <button id="buttonAdicionar" class="oculto">Confirmar</button>
+                    <button id="buttonExcluir" class="oculto">Confirmar Exclusão</button>
+                    <button id="buttonConsultar" class="oculto">Buscar</button>
+                    <button id="buttonAlterar" class="oculto">Salvar Alterações</button>
+                </div>
+            </div>
+        </div>
+
+        <div id="info">
+        </div>
+        
+        <script src="main.js"></script>
+    </div>
+</body>
+
+</html>
