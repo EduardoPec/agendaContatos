@@ -20,6 +20,10 @@ Um sistema CRUD completo para gerenciamento de contatos telefônicos desenvolvid
 ![HTML5](https://img.shields.io/badge/-HTML5-E34F26?logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/-CSS3-1572B6?logo=css3&logoColor=white)
 
+## 🌐 Acesse o site
+
+👉 [Clique aqui para abrir a Agenda de Contatos](https://eduardopec.github.io/agendaContatos/)
+
 ## ⚡ Como Usar
 
 1. Clone o repositório:
