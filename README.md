@@ -4,7 +4,7 @@ Um sistema CRUD completo para gerenciamento de contatos telefônicos desenvolvid
 
 ## ✨ Demonstração
 
-![Preview da Aplicação](screenshot.png) *(adicione um screenshot real depois)*
+![Preview da Aplicação](ftAgendaContatos.png)
 
 ## 🚀 Funcionalidades
 
