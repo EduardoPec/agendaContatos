@@ -24,4 +24,4 @@ Um sistema CRUD completo para gerenciamento de contatos telefônicos desenvolvid
 
 1. Clone o repositório:
 ```bash
-git clone https://github.com/EduardoPec/agendaContatos-js.git
+git clone https://github.com/EduardoPec/agendaContatos.git
